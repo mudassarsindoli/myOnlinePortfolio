@@ -35,17 +35,18 @@ header{
     color: rgb(206, 206, 206);
     text-decoration: none;
     list-style-type: none;
-    font-weight: 600;
+    font-weight: 300;
 }
 .navigationLinks li{
     display: inline;
-    padding: 0 1rem;
+    padding: 0.5rem;
 }
 .navigationLinks li a{
     transition: all 0.2s ease 0s;
 }
 .navigationLinks li a:hover{
     color: yellow;
+    font-weight: 700;
 
 }
 
@@ -66,7 +67,7 @@ header{
 .mudassarTitle{
     color: rgb(206, 206, 206);
     font-family: 'Great Vibes', cursive;
-    font-size: 3rem;
+    font-size: 2rem;
     margin-left: 12rem;
 }
 
