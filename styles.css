@@ -1,0 +1,407 @@
+*{
+    font-family: 'Abel', sans-serif;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+body{
+    background-color: rgb(41, 41, 41);
+    overflow-x: hidden;
+}
+
+
+.container{
+    border: 1px solid black;
+}
+
+
+header{
+    background-color: rgb(0, 0, 0);
+    opacity: 70%;
+    position: fixed;
+    display: flex;
+    height: 5rem;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.navigationLinks, a{
+    list-style: none;
+    color: rgb(206, 206, 206);
+    text-decoration: none;
+    list-style-type: none;
+    font-weight: 600;
+}
+.navigationLinks li{
+    display: inline;
+    padding: 0 1rem;
+}
+.navigationLinks li a{
+    transition: all 0.2s ease 0s;
+}
+.navigationLinks li a:hover{
+    color: yellow;
+
+}
+
+
+.mudassarLogo{ 
+    cursor: pointer;
+    align-items: center;  
+    float: left;
+    width: 4rem;
+    margin-left: 1rem;
+    transition: all 0.2s ease-out 0s;
+}
+.mudassarLogo:hover{ 
+    opacity: 40%;
+}
+
+
+.mudassarTitle{
+    color: rgb(206, 206, 206);
+    font-family: 'Great Vibes', cursive;
+    font-size: 3rem;
+    margin-left: 12rem;
+}
+
+
+section{
+    width: 100%;
+    height: 100%;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.section1>div{
+    display: flex;
+    justify-content: center;
+}
+.section1>div>img{
+    width: 20rem;
+    margin-top: 10rem;
+}
+.section1>h1{
+    margin-top: 2rem;
+    color: rgb(206, 206, 206);
+    text-align: center;
+}
+.section1>p{
+    color: rgb(177, 177, 177);
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 1.9rem;
+}
+.section1>p>a{
+    color: greenyellow;
+    font-weight: 100;
+    transition: 0.2s;
+}
+.section1>p>a:hover{
+    font-size: 2rem;
+    color: yellow;
+}
+
+
+.section2>h1{
+    margin: 2rem;
+    margin-top: 2rem;
+    color: rgb(206, 206, 206);
+    text-align: center;
+}
+.section2>ul>li{
+    color: rgb(177, 177, 177);
+    text-align: center;
+    margin: 1rem auto;
+    font-size: 1.9rem;
+    list-style: none;
+}
+.section2>div{
+    display: flex;
+    justify-content: center;
+}
+.section2>div>img{
+    width: 20rem;
+    margin-top: 5rem;
+}
+
+
+.section3>h1{
+    margin: 2rem;
+    color: rgb(206, 206, 206);
+    text-align: center;
+}
+.section3>ul>li{
+    color: rgb(177, 177, 177);
+    text-align: center;
+    margin: 1rem auto;
+    font-size: 1.9rem;
+    list-style: none;
+}
+.section3>h3{
+    margin-top: 2rem;
+    font-size: 4rem ;
+    text-align: center;
+    color: greenyellow;
+    font-weight: 100;
+}
+.section3>div{
+    display: flex;
+    justify-content: center;
+}
+.section3>div>img{
+    width: 20rem;
+    margin-top: 5rem;
+}
+
+
+.section4>h1{
+    margin: 1rem;
+    color: rgb(206, 206, 206);
+    text-align: center;
+}
+.section4>ul>li{
+    color: rgb(177, 177, 177);
+    text-align: center;
+    margin: 1rem auto;
+    font-size: 1.5rem;
+    list-style: none;
+}
+.section4>p{
+    color: greenyellow;
+    text-align: center;
+    margin: 1rem auto;
+    font-size: 1.5rem;
+    list-style: none;
+}
+.section4>h3{
+    color: rgb(177, 177, 177);
+    text-align: center;
+    margin: 1rem auto;
+    font-size: 1.9rem;
+    list-style: none;
+    font-weight: 100;
+}
+.section4>div{
+    display: flex;
+    justify-content: center;
+}
+.section4>div>img{
+    width: 20rem;
+    margin-top: 5rem;
+}
+
+
+.section5>h1{
+    margin: 2rem;
+    color: rgb(206, 206, 206);
+    text-align: center;
+}
+.section5>ul>li{
+    color: rgb(177, 177, 177);
+    text-align: center;
+    margin: 1rem auto;
+    font-size: 1.9rem;
+    list-style: none;
+}
+.section5>div{
+    display: flex;
+    justify-content: center;
+}
+.section5>div>img{
+    width: 20rem;
+    margin-top: 5rem;
+}
+.section5>ul>li{
+    color: greenyellow;
+}
+.section5>ul>li>a{
+    font-weight: 100;
+    color: greenyellow;
+    transition: all 0.2s ease 0s;
+}
+.section5>ul>li>a:hover{
+    color: white
+}
+
+
+.section6>h1{
+    margin: 2rem;
+    color: rgb(206, 206, 206);
+    text-align: center;
+}
+.section6>p{
+    color: rgb(177, 177, 177);
+    text-align: center;
+    margin: 1rem auto;
+    font-size: 1.9rem;
+    list-style: none;
+}
+.section6>h3{
+    color: rgb(177, 177, 177);
+    text-align: center;
+    margin: 1rem auto;
+    font-size: 1.9rem;
+    list-style: none;
+}
+.section6>div>form>p{
+    color: rgb(177, 177, 177);
+    margin: 1rem auto;
+    font-size: 1.9rem;
+    list-style: none;
+}
+.mailImgDiv{
+    display: flex;
+    justify-content: center;
+}
+.mailImg{
+    width: 20rem;
+    margin-top: 5rem;
+}
+.section6>div>form>input{
+    background-color: rgb(221, 221, 221);
+    width: 100%;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    font-size: 1.5rem;
+    border: 2px solid black;
+    border-radius: 0.5rem;
+}
+.section6>div>form>textarea{
+    background-color: rgb(221, 221, 221);
+    width: 20rem;
+    font-size: 1.5rem;
+    width: 100%;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    border: 2px solid black;
+    border-radius: 0.5rem;
+}
+
+.section6>div>form>div{
+    display: flex;
+    justify-content: center;
+}
+.section6>div>form>div>input{
+    cursor: pointer;
+    background-color: rgb(221, 221, 221);
+    color: black;
+    margin: auto;
+    margin-top: 2rem;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    transition: all 0.2s ease-out 0s;
+}
+.section6>div>form>div>input:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(36, 134, 23);
+
+}
+.section6>form{
+    padding-left: 5rem;
+    padding-right: 5rem;
+    border: 3px solid white;
+}
+
+.webDesigner{
+    font-family: 'Amatic SC', cursive;
+    color: orange;
+    font-weight: 200;
+}
+.webDeveloper{
+    font-family: 'Ubuntu Mono', monospace;
+    color: greenyellow;
+    font-weight: 200;
+}
+
+footer>div{
+    display: flex;
+    height: 5rem;
+    background-color: black;
+    opacity: 50%;
+    justify-content: center;
+    align-items: center;
+}
+footer>div>p{
+    font-size: 1.3rem;
+    color: white;
+}
+
+.backToTop{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.backToTop>a>input{
+    cursor: pointer;
+    background-color: rgb(221, 221, 221);
+    color: black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+    font-size: 1.5rem;
+    transition: all 0.2s ease-out 0s;
+}
+
+.backToTop>a>input:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 19, 19);
+}
+
+.mailDiv{
+    display: flex;
+    justify-content: center;
+    height: 2rem;
+    align-items: center;
+}
+.mailText{
+    font-size: 1.3rem;
+    color: white;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+
+#email{
+    color: greenyellow;
+}
+
+.aequs{
+    color: red;
+    font-weight: 200;
+    transition: all 0.2s ease-out 0s;
+}
+.aequs:hover{
+    color: white;
+    font-weight: 200;
+}
+
+
+
+
+
+@media(max-width:998px){
+    html{
+        font-size: 55%;
+    }
+}
+
+@media(max-width:768px){
+    html{
+        font-size: 45%;
+    }
+}
