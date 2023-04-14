@@ -315,17 +315,6 @@ section{
     border: 3px solid white;
 }
 
-.webDesigner{
-    font-family: 'Amatic SC', cursive;
-    color: orange;
-    font-weight: 200;
-}
-.webDeveloper{
-    font-family: 'Ubuntu Mono', monospace;
-    color: greenyellow;
-    font-weight: 200;
-}
-
 footer>div{
     display: flex;
     height: 5rem;
