@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(255, 198, 198);
+}
+.mainContent{
+    background-color: rgb(255, 198, 198);
+    width: 100%;
+    height: 1900px;
+}
+.mainHeader{
+    font-family: 'Bruno Ace SC', cursive;
+    font-weight: 1000;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 60px;
+}
+.center{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.whoAmIDiv{
+    width: 80%;
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: rgb(253, 190, 190);
+}
+.skills{
+    width: 80%;
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: rgb(253, 190, 190);
+}
+.education{
+    width: 80%;
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: rgb(253, 190, 190);
+}
+.whoAmI{
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    font-weight: 1000;
+    margin: auto 60px;
+}
+.mySkills{
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    font-weight: 1000;
+    margin: auto 60px;
+    text-align: center;
+}
+.introParagh{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 20px;
+    margin: 10px 60px auto;
+    line-height: 40px;
+    text-align: center;
+}
+.myLearningsDiv{
+    width: 80%;
+    margin-top: 100px;
+    text-align: center;
+    background-color: rgb(253, 190, 190);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.myLearnings{
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    font-weight: 1000;
+    margin: auto 60px;
+}
+.myEducation{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    font-weight: 1000;
+    margin: auto 60px;
+}
+.introButton{
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 1400px) {
+    .mainHeader{
+        font-size: 30px;
+        margin-top: 40px;
+    }
+    .whoAmI{
+        font-size: 30px;
+    }
+    .introParagh{
+        font-size: 20px;
+        margin: 10px 60px auto;
+    }
+}
+
+@media screen and (max-width: 750px){
+    .mainHeader{
+        font-size: 20px;
+        margin-top: 40px;
+    }
+    .whoAmI{
+        font-size: 30px;
+        margin: auto 10px;
+    }
+    .introParagh{
+        font-size: 14px;
+        margin: 10px 20px auto;
+        line-height: 20px;
+        text-align: left;
+    }
+    .mainContent{
+        height: 1400px;
+    }
+}

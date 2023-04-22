@@ -1,0 +1,62 @@
+body{
+    background-color: rgb(255, 177, 177);
+}
+.blogHeading{
+    font-family: 'Bruno Ace SC', cursive;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.blogItem > p{
+    font-family: 'Oswald', sans-serif;
+    margin: 1rem 5rem;
+    text-align: justify;
+    font-size: 1rem;
+}
+.blogItem > h2{
+    font-family: 'Oswald', sans-serif;
+    margin: 1rem 2rem;
+    font-size: 2rem;
+}
+li{
+    font-family: 'Oswald', sans-serif;
+    padding-left: 130px;
+    padding-right: 130px;
+    margin-top: 30px;
+}
+li span{
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+p{
+    font-family: 'Fira Sans', sans-serif;
+}
+
+@media screen and (max-width: 1400px){
+    html{
+        font-size: 100%;
+    }
+}
+@media screen and (max-width: 700px){
+    html{
+        font-size: 70%;
+        font-weight: 600;
+    }
+    .blogItem > h2{
+        font-size: 25px;
+    }
+    li span{
+        font-size: 20px;
+    }
+    li{
+        font-family: 'Oswald', sans-serif;
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-top: 30px;
+    }
+    .blogItem > p{
+        margin: 10px 20px;
+        font-size: 1rem;
+    }
+}

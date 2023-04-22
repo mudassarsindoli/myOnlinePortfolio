@@ -1,0 +1,57 @@
+body{
+    background-color: rgb(255, 198, 198);
+}
+.contactForm{
+    font-family: 'Fira Sans', sans-serif;
+    padding: 5rem 3rem;
+}
+.contactForm h1{
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 1rem;
+}
+.mb-3{
+    display: flex;
+    flex-direction: column;
+    padding: 0.4rem 0;
+}
+form input, textarea{
+    background-color: rgb(255, 177, 177);
+    padding: 0.5rem 1rem;
+    border: 0.1rem solid rgb(0, 0, 0);
+    border-radius: 2rem;
+    font-size: 1rem;
+    color: #000000;
+    font-weight: bold;
+    font-family: 'Fira Sans', sans-serif;
+}
+#form-check{
+    flex-direction: row;
+}
+#form-check label{
+    margin-left: 1rem;
+}
+.emailHelp{
+    font-size: 1rem;
+    margin: 1rem auto;
+}
+#btn-sm{
+    width: 5rem;
+    background-color: rgb(255, 74, 74);
+    color: white;
+    padding: 0.2rem;
+    margin: 1rem;
+    font-size: 1rem;
+} 
+#btn-sm:hover{
+    background-color: rgb(143, 36, 32);
+    scale: 1.1;
+}
+
+@media screen and (max-width: 750px){
+    html{
+        font-size: 100%;
+    }
+    .contactForm h1{
+        font-size: 30px;
+    }
+}
