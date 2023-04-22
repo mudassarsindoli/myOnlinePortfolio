@@ -1,11 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+/* font-family: 'Caveat', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* font-family: 'Roboto', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
+/* font-family: 'Bad Script', cursive; */
+
+
+/* #faf5e6      light cream color
+   #253667	    dark blue color */
+
 
 .fullBox{
     align-items: center;
-    background-color: rgb(255, 198, 198);;
+    background-color: #253667;
     justify-content: center;
     padding-bottom: 100px;
     display: flex;
@@ -15,8 +22,8 @@
 .box1{
     width: 1200px;
     height: 600px;
-    background-color: rgb(255, 177, 177);
-    border: 1px solid black;
+    background-color: #212a46;
+    border: 1px solid rgb(255, 255, 255);
     border-radius: 50px;
     margin: 100px auto 100px;
     display: flex;
@@ -28,8 +35,8 @@
 .box2{
     width: 1200px;
     height: 600px;
-    background-color: rgb(255, 177, 177);
-    border: 1px solid black;
+    background-color: #212a46;
+    border: 1px solid rgb(255, 255, 255);
     border-radius: 50px;
     margin: 100px auto 100px;
     display: flex;
@@ -39,35 +46,40 @@
 
 .projectTitle{
     font-size: 60px;
-    font-family: 'Bruno Ace SC', cursive;
+    font-family: 'Bad Script', cursive;
+    font-weight: 1000;
     margin-top: 100px;
-    border: 1px solid black;
+    border: 1px solid rgb(255, 255, 255);
     border-radius: 50px;
     padding-right: 60px;
     padding-left: 60px;
-    background-color: rgb(255, 177, 177);
+    color: #faf5e6;
+    background-color: #253667;
 }
 
 .project1Content{
-    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin-left: 20px;
+    color: #faf5e6;
 }
 .project2Content{
-    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin-left: 20px;
+    color: #faf5e6;
 }
 
 .projectImage{
     width: 800px;
     height: 500px;
     margin: auto 30px;
-    border: 2px solid black;
+    border: 2px solid #ffffff;
     border-radius: 20px;
 }
 
 .projectHeading{
-    font-family: 'Bruno Ace SC', cursive;
+    font-family: 'Caveat', cursive;
     font-size: 50px;
+    color: #faf5e6;
 }
 
 @media screen and (max-width: 1400px){
@@ -82,7 +94,7 @@
         width: 400px;
         height: 300px;
         margin: auto 30px;
-        border: 2px solid black;
+        border: 2px solid rgb(255, 255, 255);
         border-radius: 20px;
     }
     .box2{
@@ -105,7 +117,7 @@
     .projectImage{
         width: 400px;
         height: 300px;
-        border: 2px solid black;
+        border: 2px solid rgb(255, 255, 255);
         border-radius: 20px;
     }
     .project1Content{
