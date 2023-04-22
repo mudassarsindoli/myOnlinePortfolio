@@ -1,18 +1,28 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+/* font-family: 'Caveat', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* font-family: 'Roboto', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
+/* font-family: 'Bad Script', cursive; */
+
+/* #faf5e6      light cream color
+   #253667	    dark blue color */
+
 
 *{
     margin: 0;
     padding: 0;
 }
 
+body{
+    background-color: #253667;
+}
+
 .sidebar{
-    background-color: rgb(255, 198, 198);
+    background-color: #384b83;
     width: 300px;
     height: 100vh;
-    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     transition: all 0.5s ease;
     position: absolute;
     z-index: 1;
@@ -35,13 +45,13 @@
     transition: all 0.4s ease;
 }
 .sidebar nav li:hover{
-    background-color: rgb(255, 124, 124);
+    background-color: #1f2452;
     scale: 1.04;
 }
 
 .sidebar nav li a{
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: #faf5e6;
 }
 
 .main{
@@ -60,7 +70,7 @@
     margin: 5rem auto;
     display: flex;
     justify-content: space-around;
-    background-color: rgb(255, 198, 198);
+    background-color: #253667;
     padding-bottom: 280px;
 }
 
@@ -83,32 +93,37 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 1rem;
     margin-top: 10rem;
 }
 
 .hello{
-    font-family: 'Indie Flower', cursive;
-    font-size: 1.6em;
+    color:#faf5e6;
+    font-family: 'Caveat', cursive;
+    font-size: 8em;
     margin-left: 2rem;
+    margin-top: 7rem;
 }   
 .name{
-    font-family: 'Bruno Ace SC', cursive;
+    color:#faf5e6;
+    font-family: 'Bad Script', cursive;
     font-size: 4em;
     font-weight: bold;
     margin-left: 2rem;
 }
 .about{
-    font-family: 'Indie Flower', cursive;
+    color:#faf5e6;
+    font-family: 'Caveat', cursive;
     font-size: 2em;
     font-weight: 1000;
     margin-left: 2rem;
 }
 .moreAbout{
+    color:#faf5e6;
     font-size: 1em;
     margin-top: 2rem;
-    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin-left: 2rem;
 }
 
@@ -117,19 +132,19 @@
     display: flex;
 }
 .btn{
-    padding: 1rem 2rem;
-    font-size: 1em;
+    padding: 0.5rem 2rem;
+    font-size: 2em;
+    font-family: 'Caveat', cursive;
     border-radius: 2rem;
-    background-color: rgb(255, 74, 74);
-    color: white;
-    margin: 4rem 1rem auto;
+    background-color: #faf5e6;
+    color: #253667;
+    margin: 2rem 1rem;
     border: none;
     cursor: pointer;
-    transition: all 0.2s ease-in;
+    transition: all 0.1s ease-in;
 }
 .btn:hover{
-    background-color: rgb(143, 36, 32);
-    scale: 1.1;
+    background-color: #fade8b;
 }
 
 .hamburger{
@@ -169,13 +184,13 @@
         font-size: 80%;
     }
     body{
-        background-color: rgb(255, 198, 198);
+        background-color: #253667;
     }
     .devInfo{
         margin-top: 250px;
     }
     .devPic img{
-        height: 300px;
+        height: 500px;
         margin-top: 100px;
     }
     .infoContainer{
@@ -183,7 +198,7 @@
     }
 }
 
-@media screen and (max-width: 750px){
+@media screen and (max-width: 950px){
     html{
         font-size: 30%;
     }
@@ -200,11 +215,11 @@
         margin-top: 10px;
     }
     .devPic{
-        width: 100vw;
+        width: 480px;
         margin-top: 170px;
         display: flex;
         justify-content: center;
-        background-color: rgb(255, 151, 151);
+        background-color: #253667;
     }
     .devPic img{
         height: 400px;
@@ -213,6 +228,7 @@
     .hello{
         font-size: 3em;
         margin-left: 5rem;
+        margin-bottom: 3rem;
     }   
     .name{
         font-size: 5em;
@@ -223,24 +239,26 @@
         font-size: 3.5em;
         font-weight: 1000;
         margin-left: 4rem;
+        margin-bottom: 3rem;
     }
     .moreAbout{
         font-size: 2.5em;
         margin-top: 2rem;
         margin-left: 4rem;
+        margin-right: 4rem;
+        margin-bottom: 3rem;
     }
     .btn{
         font-size: 3rem;
         border-radius: 7rem;
-        background-color: rgb(255, 74, 74);
-        color: white;
+        background-color: #faf5e6;
+        color: #253667;
         border: none;
         cursor: pointer;
         transition: all 0.2s ease-in;
     }
     .btn:hover{
-        background-color: rgb(143, 36, 32);
-        scale: 1.1;
+        background-color: #faf5e6;
     }
     
 }
