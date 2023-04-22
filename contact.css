@@ -1,12 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+/* font-family: 'Caveat', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* font-family: 'Roboto', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
+/* font-family: 'Bad Script', cursive; */
+
+
+/* #faf5e6      light cream color
+   #253667	    dark blue color */
+
 body{
-    background-color: rgb(255, 198, 198);
+    background-color: #253667;
 }
 .contactForm{
-    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    color: #faf5e6;
     padding: 5rem 3rem;
 }
 .contactForm h1{
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Bad Script', cursive;
+    font-weight: 1000;
     margin-bottom: 1rem;
 }
 .mb-3{
@@ -15,14 +28,14 @@ body{
     padding: 0.4rem 0;
 }
 form input, textarea{
-    background-color: rgb(255, 177, 177);
+    background-color: #4c69c0;
     padding: 0.5rem 1rem;
-    border: 0.1rem solid rgb(0, 0, 0);
+    border: 0.1rem solid rgb(255, 255, 255);
     border-radius: 2rem;
     font-size: 1rem;
     color: #000000;
     font-weight: bold;
-    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 #form-check{
     flex-direction: row;
@@ -36,15 +49,14 @@ form input, textarea{
 }
 #btn-sm{
     width: 5rem;
-    background-color: rgb(255, 74, 74);
-    color: white;
+    background-color: #faf5e6;
+    color: #253667;
     padding: 0.2rem;
     margin: 1rem;
     font-size: 1rem;
 } 
 #btn-sm:hover{
-    background-color: rgb(143, 36, 32);
-    scale: 1.1;
+    background-color: #ffe38e;
 }
 
 @media screen and (max-width: 750px){
