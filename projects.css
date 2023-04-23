@@ -11,17 +11,16 @@
 
 
 .fullBox{
-    align-items: center;
     background-color: #253667;
     justify-content: center;
-    padding-bottom: 100px;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .box1{
-    width: 1200px;
-    height: 600px;
+    width: 80%;
+    height: 500px;
     background-color: #212a46;
     border: 1px solid rgb(255, 255, 255);
     border-radius: 50px;
@@ -33,8 +32,8 @@
 
 
 .box2{
-    width: 1200px;
-    height: 600px;
+    width: 80%;
+    height: 500px;
     background-color: #212a46;
     border: 1px solid rgb(255, 255, 255);
     border-radius: 50px;
@@ -45,7 +44,7 @@
 }
 
 .projectTitle{
-    font-size: 60px;
+    font-size: 50px;
     font-family: 'Bad Script', cursive;
     font-weight: 1000;
     margin-top: 100px;
@@ -59,18 +58,20 @@
 
 .project1Content{
     font-family: 'Roboto', sans-serif;
+    font-size: 20px;
     margin-left: 20px;
     color: #faf5e6;
 }
 .project2Content{
     font-family: 'Roboto', sans-serif;
+    font-size: 20px;
     margin-left: 20px;
     color: #faf5e6;
 }
 
 .projectImage{
-    width: 800px;
-    height: 500px;
+    width: 400px;
+    height: 400px;
     margin: auto 30px;
     border: 2px solid #ffffff;
     border-radius: 20px;
@@ -82,62 +83,71 @@
     color: #faf5e6;
 }
 
-@media screen and (max-width: 1400px){
+@media screen and (max-width: 1300px){
     html{
         font-size: 80%;
     }
     .box1{
-        width: 800px;
-        margin: 100px auto 100px;
+        width: 50%;
+        margin: 50px auto;
+        display: flex;
+        flex-direction: column;
     }
     .projectImage{
-        width: 400px;
-        height: 300px;
-        margin: auto 30px;
+        width: 20em;
+        height: 260px;
+        margin: 20px 30px;
         border: 2px solid rgb(255, 255, 255);
         border-radius: 20px;
     }
     .box2{
-        width: 800px;
-        margin: 100px auto 100px;
+        width: 50%;
+        margin: 50px auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .project1Content{
+        font-size: 12px;
+    }
+    .project2Content{
+        font-size: 12px;
     }
 }
 
-@media screen and (max-width: 850px){
+@media screen and (max-width: 760px){
     html{
         font-size: 80%;
     }
     .box1{
-        width: 350px;
+        width: 95%;
         height: 700px;
-        margin: 40px auto;
         display: flex;
+        align-items: center;
         flex-direction: column-reverse;
     }
+    .iframe{
+        width: 100%;
+        height: auto;
+    }
     .projectImage{
-        width: 400px;
-        height: 300px;
+        width: 80%;
         border: 2px solid rgb(255, 255, 255);
         border-radius: 20px;
     }
     .project1Content{
-        margin-left: 20px;
-        margin-right: 20px;
-        margin-bottom: 20px;
         font-size: 14px;
+        margin-bottom: 50px;
     }
     .box2{
-        width: 350px;
+        width: 95%;
         height: 700px;
         margin: 40px auto;
         display: flex;
         flex-direction: column-reverse;
     }
     .project2Content{
-        margin-left: 20px;
-        margin-right: 20px;
-        margin-bottom: 20px;
         font-size: 14px;
+        margin-bottom: 50px;
     }
     .projectTitle{
         font-size: 30px;
