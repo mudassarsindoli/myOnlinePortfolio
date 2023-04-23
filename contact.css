@@ -59,11 +59,20 @@ form input, textarea{
     background-color: #ffe38e;
 }
 
-@media screen and (max-width: 750px){
+@media screen and (max-width: 835px){
     html{
         font-size: 100%;
     }
     .contactForm h1{
-        font-size: 30px;
+        font-size: 20px;
+    }
+    .contactForm{
+        font-family: 'Roboto', sans-serif;
+        color: #faf5e6;
+        padding: 5rem 0.2rem;
+    }
+    .emailHelp{
+        font-size: 0.5rem;
+        margin: 1rem auto;
     }
 }
