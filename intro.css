@@ -133,21 +133,24 @@ body{
 
 @media screen and (max-width: 750px){
     .mainHeader{
-        font-size: 30px;
+        font-size: 20px;
         margin-top: 40px;
     }
     .whoAmI{
-        font-size: 30px;
+        font-size: 20px;
         margin: auto 10px;
     }
     .mySkills{
-        font-size: 30px;
+        font-size: 20px;
+    }
+    .myLearningsDiv{
+        margin-top: 69px;
     }
     .myLearnings{
-        font-size: 30px;
+        font-size: 20px;
     }
     .myEducation{
-        font-size: 30px;
+        font-size: 20px;
     }
     .introParagh{
         font-size: 14px;
