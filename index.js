@@ -8,4 +8,3 @@ function mode(){
     }
     document.getElementById("navbar").classList.toggle("navbar-dark");
 }
-
