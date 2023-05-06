@@ -25,9 +25,6 @@
         position: absolute;
         opacity: 40%;
     }
-    #logo{
-        width: 5vw;
-    }
     header ul li, #name{
         font-size: 30px;
     }
@@ -41,9 +38,6 @@
 @media screen and (max-width: 765px) {
     html{
         font-size: 20%;
-    }
-    #logo{
-        width: 7vw;
     }
     header ul li, #name{
         font-size: 10px;
