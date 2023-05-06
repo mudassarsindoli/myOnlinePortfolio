@@ -19,10 +19,11 @@
 }
 
 #logo{
-    width: 3vw;
+    width: 2vw;
 }
 header ul li, #name{
     font-size: 40px;
+    margin: auto 20px;
 }
 
 body {
@@ -51,7 +52,7 @@ body {
 
 .frontEndDevDiv h4 {
     font-size: 4rem;
-    height: 10vh;
+    overflow-y: hidden;
 }
 
 .helloDiv {
@@ -150,10 +151,10 @@ body {
 }
 
 .aequsImage {
-    width: 70vw;
+    width: 40vw;
     margin-top: 300rem;
-    position: static;
-    opacity: 70%;
+    border: 20px solid grey;
+    border-radius: 20px;
 }
 
 .headings {
@@ -171,4 +172,8 @@ body {
 .educationSpan {
     color: rgb(255, 145, 0);
     font-weight: 500;
+}
+
+footer{
+    font-size: 20px;
 }
