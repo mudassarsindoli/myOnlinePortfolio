@@ -1,0 +1,76 @@
+@media screen and (max-width:1000px) {
+    .aboutparaDiv{
+        margin: 1px 40px;
+    }
+    .aboutpara{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 10px;
+    }
+    .textDiv{
+        margin-right: 1px;
+    }
+    .skillsPara{
+        font-size: 10px;
+    }
+    .educationpara{
+        font-size: 10px;
+    }
+    .workpara{
+        font-size: 10px;
+    }
+    .myImage{
+        width: 300px;
+    }
+    .aequsImage{
+        width: 400px;   
+    }
+    #name{
+        display: none;
+    }
+}
+@media screen and (max-width:538px) {
+    body {
+        width: 100vw;
+    }
+    .aboutparaDiv{
+        display: flex;
+        flex-direction: column;
+        margin: 1px 40px;
+    }
+    .aboutpara{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 10px;
+    }
+    .textDiv{
+        margin-right: 1px;
+    }
+    .skillsPara{
+        font-size: 10px;
+    }
+    .educationpara{
+        font-size: 10px;
+    }
+    .workpara{
+        font-size: 10px;
+        width: 70vw;
+    }
+    .myImage{
+        width: 300px;
+    }
+    .aequsImage{
+        width: 200px;   
+    }
+    #name{
+        display: none;
+    }
+    .headings {
+        font-size: 10vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+}
