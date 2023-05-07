@@ -1,68 +1,82 @@
 @media screen and (max-width:1000px) {
-    .aboutparaDiv{
-        margin: 1px 40px;
-    }
     .aboutpara{
         display: flex;
         flex-direction: column;
-        align-items: center;
-        font-size: 10px;
+        text-align: center;
+        font-size: 15px;
+        z-index: 10;
     }
     .textDiv{
-        margin-right: 1px;
+        margin-right: auto;
     }
-    .skillsPara{
-        font-size: 10px;
+    .skillsParaDiv{
+        font-size: 15px;
+        margin: 50px auto;
     }
-    .educationpara{
-        font-size: 10px;
+    .educationDiv{
+        font-size: 15px;
+        margin: 50px auto;
+    }
+    .workDiv {
+        margin: 50px auto;
     }
     .workpara{
-        font-size: 10px;
+        font-size: 15px;
     }
     .myImage{
-        width: 300px;
+        width: 350px;
     }
     .aequsImage{
-        width: 400px;   
+        width: 60vw;   
     }
-    #name{
-        display: none;
+    #linked{
+        font-size: 10px;
     }
 }
-@media screen and (max-width:538px) {
+
+
+
+@media screen and (max-width:645px) {
     body {
-        width: 100vw;
+        overflow-x: hidden;
+    }
+    .helloDiv {
+        width: 90vw;
+    }
+    
+    .hello {
+        width: 60vw;
+        font-size: 30vw;
+        line-height: 1;
     }
     .aboutparaDiv{
         display: flex;
         flex-direction: column;
-        margin: 1px 40px;
+        margin: auto auto 50px;
     }
     .aboutpara{
         display: flex;
         flex-direction: column;
         align-items: center;
-        font-size: 10px;
+        font-size: 13px;
     }
     .textDiv{
-        margin-right: 1px;
+        margin-right: auto;
+        width: 90vw;
     }
-    .skillsPara{
-        font-size: 10px;
+    .skillsParaDiv {
+        margin: auto;
     }
-    .educationpara{
-        font-size: 10px;
+    .skillsPara, .educationpara, .workpara{
+        font-size: 13px;
     }
-    .workpara{
-        font-size: 10px;
-        width: 70vw;
-    }
-    .myImage{
-        width: 300px;
+    .myImage {
+        width: 80vw;
+        height: fit-content;
+        margin: 30px auto auto;
     }
     .aequsImage{
-        width: 200px;   
+        width: 70vw;   
     }
     #name{
         display: none;
