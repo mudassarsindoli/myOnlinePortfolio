@@ -1,34 +1,23 @@
 * {
     margin: 0;
-    padding: 0;
+    padding: 0%;
     box-sizing: border-box;
     scroll-behavior: smooth;
-    overflow-x: hidden;
 }
 
-.navbar {
+.navbar{
     background-color: #f8f9fa;
     color: rgb(43, 43, 43);
-    position: sticky;
-    width: 100vw;
 }
-
-.navbar-dark {
+.navbar-dark{
     background-color: rgb(43, 43, 43);
     color: #f8f9fa;
-}
-
-#logo{
-    width: 2vw;
-}
-header ul li, #name{
-    font-size: 40px;
-    margin: auto 20px;
 }
 
 body {
     background-color: #f8f9fa;
     color: rgb(43, 43, 43);
+    overflow-x: hidden;
 }
 
 .dark-mode {
@@ -37,124 +26,100 @@ body {
 }
 
 .carousel {
-    width: 80%;
+    width: 100%;
     display: flex;
 }
 
-.frontEndDevDiv {
+.fronEndDevDiv {
     width: 100vw;
     height: 100vh;
-    /* background-color: rgb(102, 228, 64); */
+    /* background-color: rgb(255, 166, 0); */
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.frontEndDevDiv h4 {
-    font-size: 4rem;
-    overflow-y: hidden;
 }
 
 .helloDiv {
     width: 100vw;
     height: 100vh;
     /* background-color: rgb(255, 166, 0); */
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin: auto;
 }
 
 .hello {
     font-size: 39vw;
     line-height: 1;
-    overflow-y: hidden;
 }
 
 .aboutparaDiv {
     display: flex;
+    background-color: rgb(218, 218, 218);
+    border-radius: 40px;
+    margin: 300px 40px;
     align-items: center;
-    width: 100vw;
-    padding-top: 5rem;
-    /* background-color: yellow; */
+}
+.aboutparaDivDark {
+    background-color: rgb(43, 43, 43);
 }
 
-.aboutpara {
-    width: 100vw;
-    font-size: 4rem;
-    margin-right: 5vw;
-    margin-left: 22vw;
+.textDiv{
+    background-color: rgb(187, 187, 187);
+    border-radius: 40px;
+    height: fit-content;
+    margin-right: 30px;
 }
-
-.myImage {
-    width: 80rem;
-    position: absolute;
-    left: -400px;
+.textDivDark{
+    background-color: rgb(65, 65, 65);
 }
 
 .skillsParaDiv {
-    width: 100vw;
-    /* background-color: pink; */
-    padding-top: 40px;
+    display: flex;
+    background-color: rgb(218, 218, 218);
+    border-radius: 40px;
+    margin: 50px 20px;
     display: flex;
     align-items: center;
 }
-
-.skillsPara {
-    width: 100vw;
-    font-size: 4rem;
-    padding-left: 5vw;
-    padding-right: 5vw;
-    z-index: 10;
-}
-
-.skillsImage {
-    width: 130rem;
-    height: fit-content;
-    right: 0;
-    position: absolute;
-    opacity: 40%;
+.skillsParaDivDark {
+    background-color: rgb(43, 43, 43);
 }
 
 .educationDiv {
-    width: 100vw;
-    /* background-color: aqua; */
-    padding-top: 40px;
     display: flex;
+    background-color: rgb(218, 218, 218);
+    border-radius: 40px;
+    margin: 50px 20px;
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    flex-direction: column;
 }
-
-.educationpara {
-    width: 80vw;
-    font-size: 4rem;
-    margin: auto 200px;
+.educationDivDark {
+    background-color: rgb(43, 43, 43);
 }
-
-.experienceDiv {
-    width: 100vw;
+.educationpara{
+    padding: 30px;
+}
+.workDiv {
     display: flex;
-    justify-content: center;
+    background-color: rgb(218, 218, 218);
+    border-radius: 40px;
+    margin: 50px 20px;
+    display: flex;
     flex-direction: column;
-    /* background-color: bisque; */
+    align-items: center;
+}
+.workDivDark {
+    background-color: rgb(43, 43, 43);
 }
 
-.experienceDiv .headings {
-    padding-left: 5vw;
-}
-
-.experiencePara {
-    width: 100vw;
-    font-size: 4rem;
-    padding-left: 5vw;
-    padding-right: 8vw;
-    text-align: justify;
+.myImage {
+    width: 40vw;
+    height: fit-content;
+    margin: 45px auto auto;
 }
 
 .aequsImage {
-    width: 40vw;
-    margin-top: 300rem;
-    border: 20px solid grey;
-    border-radius: 20px;
+    width: 60%;
 }
 
 .headings {
@@ -162,18 +127,11 @@ body {
 }
 
 .skillsSpan {
-    color: rgb(133, 133, 133);
+    color: red;
     font-weight: 700;
-}
-.skillsSpan2 {
-    color: rgb(197, 57, 57);
 }
 
 .educationSpan {
-    color: rgb(255, 145, 0);
+    color: red;
     font-weight: 500;
-}
-
-footer{
-    font-size: 20px;
 }
