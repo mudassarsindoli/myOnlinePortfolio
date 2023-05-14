@@ -8,6 +8,7 @@
     }
     .textDiv{
         margin-right: auto;
+        padding: 10px;
     }
     .skillsParaDiv{
         font-size: 15px;
@@ -24,7 +25,9 @@
         font-size: 15px;
     }
     .myImage{
-        width: 350px;
+        width: 45vw;
+        height: fit-content;
+        margin: 100px auto auto;
     }
     .aequsImage{
         width: 60vw;   
@@ -62,7 +65,9 @@
     }
     .textDiv{
         margin-right: auto;
-        width: 90vw;
+        margin-left: auto;
+        width: 85vw;
+        padding-left: 20px;
     }
     .skillsParaDiv {
         margin: auto;
