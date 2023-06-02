@@ -1,38 +1,58 @@
 @media screen and (max-width:1000px) {
-    .aboutpara{
+    .aboutparaDiv {
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+        margin: auto auto 50px;
+    }
+
+    #name{
+        display: none;
+    }
+
+    .aboutpara {
         display: flex;
         flex-direction: column;
         text-align: center;
         font-size: 15px;
         z-index: 10;
     }
-    .textDiv{
-        margin-right: auto;
+
+    .textDiv {
+        margin-right: 1px;
         padding: 10px;
+        text-align: justify;
     }
-    .skillsParaDiv{
+
+    .skillsParaDiv {
         font-size: 15px;
         margin: 50px auto;
     }
-    .educationDiv{
+
+    .educationDiv {
         font-size: 15px;
         margin: 50px auto;
     }
+
     .workDiv {
         margin: 50px auto;
     }
-    .workpara{
+
+    .workpara {
         font-size: 15px;
     }
-    .myImage{
+
+    .myImage {
         width: 45vw;
         height: fit-content;
         margin: 100px auto auto;
     }
-    .aequsImage{
-        width: 60vw;   
+
+    .aequsImage {
+        width: 60vw;
     }
-    #linked{
+
+    #linked {
         font-size: 10px;
     }
 }
@@ -43,53 +63,70 @@
     body {
         overflow-x: hidden;
     }
-    .helloDiv {
-        width: 90vw;
+
+    #name{
+        display: none;
     }
-    
+
+    .helloDiv {
+        width: 95vw;
+        height: 100vh;
+    }
+
     .hello {
-        width: 60vw;
-        font-size: 30vw;
+        font-size: 20vw;
         line-height: 1;
     }
-    .aboutparaDiv{
+
+    .aboutparaDiv {
         display: flex;
         flex-direction: column;
+        height: fit-content;
         margin: auto auto 50px;
     }
-    .aboutpara{
+
+    .aboutpara {
         display: flex;
         flex-direction: column;
         align-items: center;
         font-size: 13px;
     }
-    .textDiv{
+
+    .textDiv {
         margin-right: auto;
         margin-left: auto;
         width: 85vw;
         padding-left: 20px;
     }
+
     .skillsParaDiv {
-        margin: auto;
+        margin: 20px auto;
     }
-    .skillsPara, .educationpara, .workpara{
+
+    .skillsPara,
+    .educationpara,
+    .workpara {
         font-size: 13px;
     }
+
     .myImage {
         width: 80vw;
         height: fit-content;
         margin: 30px auto auto;
     }
-    .aequsImage{
-        width: 70vw;   
+
+    .aequsImage {
+        width: 70vw;
     }
-    #name{
+
+    #name {
         display: none;
     }
+
     .headings {
         font-size: 10vw;
         margin-left: auto;
         margin-right: auto;
     }
-    
+
 }
