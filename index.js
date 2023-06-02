@@ -5,6 +5,7 @@ function mode() {
     let skillsDiv = document.getElementById("skills")
     let educationDiv = document.getElementById("education")
     let experienceDiv = document.getElementById("work")
+    let projects = document.getElementById("projects")
     let logoImg = document.getElementById("logo")
 
     aboutdark.classList.toggle("aboutparaDivDark")
@@ -12,8 +13,10 @@ function mode() {
     skillsDiv.classList.toggle("skillsParaDivDark")
     educationDiv.classList.toggle("educationDivDark")
     experienceDiv.classList.toggle("workDivDark")
-
+    projects.classList.toggle("skillsParaDivDark")
+    document.body.style = ("");
     document.body.classList.toggle("aboutparaDivDark");
+
     if (darkMode == true) {
         document.getElementById("modeBtn").innerHTML = ".light"
         logoImg.setAttribute("src", "img/logo_white.png")
@@ -29,5 +32,5 @@ let pinButton = document.getElementById("pinBtn")
 pinButton.addEventListener("click", text)
 
 function text() {
-    document.getElementById("messege").innerHTML = "Thank You for your Feedback!"
+    document.getElementById("messege").innerHTML = "mudassarsindoli@gmail.com : Send a quick mail to me!"
 }
