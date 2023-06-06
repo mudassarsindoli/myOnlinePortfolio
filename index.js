@@ -15,7 +15,6 @@ function mode() {
     experienceDiv.classList.toggle("workDivDark")
     projects.classList.toggle("skillsParaDivDark")
     document.body.style = ("");
-    document.body.classList.toggle("aboutparaDivDark");
 
     if (darkMode == true) {
         document.getElementById("modeBtn").innerHTML = ".light"
