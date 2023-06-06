@@ -21,13 +21,17 @@ body {
     overflow-x: hidden;
 }
 
+.white-mode {
+    background-color: #ffcf90;
+}
+
 .dark-mode {
     background-color: rgb(0, 0, 0);
     color: #f8f9fa;
 }
 
 .carousel {
-    width: 50vw;
+    width: 100vw;
     display: flex;
 }
 
@@ -79,8 +83,8 @@ body {
 }
 
 .textDiv{
-    background-color: rgb(0, 0, 0);
-    color: white;
+    background-color: #ffab3e;
+    color: rgb(0, 0, 0);
     border-radius: 10px;
     height: fit-content;
     margin-right: 30px;
@@ -89,6 +93,8 @@ body {
 }
 .textDivDark{
     background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+
 }
 
 .skillsParaDiv {
