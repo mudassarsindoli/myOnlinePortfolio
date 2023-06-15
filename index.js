@@ -1,35 +1,42 @@
-function mode() {
-    let darkMode = document.body.classList.toggle("dark-mode");
-    let aboutdark = document.getElementById("about");
-    let textDiv = document.getElementById("textDivId")
-    let skillsDiv = document.getElementById("skills")
-    let educationDiv = document.getElementById("education")
-    let experienceDiv = document.getElementById("work")
-    let projects = document.getElementById("projects")
-    let logoImg = document.getElementById("logo")
+const body = document.body;
+const aboutdark = document.getElementById("about");
+const textDiv = document.getElementById("textDivId");
+const skillsDiv = document.getElementById("skills");
+const educationDiv = document.getElementById("education");
+const experienceDiv = document.getElementById("work");
+const projects = document.getElementById("projects");
+const logoImg = document.getElementById("logo");
+const modeBtn = document.getElementById("modeBtn");
+const navbar = document.getElementById("navbar");
 
-    aboutdark.classList.toggle("aboutparaDivDark")
-    textDiv.classList.toggle("textDivDark")
-    skillsDiv.classList.toggle("skillsParaDivDark")
-    educationDiv.classList.toggle("educationDivDark")
-    experienceDiv.classList.toggle("workDivDark")
-    projects.classList.toggle("skillsParaDivDark")
-    document.body.style = ("");
+body.classList.toggle("dark-mode");
+aboutdark.classList.toggle("aboutparaDivDark");
+textDiv.classList.toggle("textDivDark");
+skillsDiv.classList.toggle("skillsParaDivDark");
+educationDiv.classList.toggle("educationDivDark");
+experienceDiv.classList.toggle("workDivDark");
+projects.classList.toggle("skillsParaDivDark");
 
-    if (darkMode == true) {
-        document.getElementById("modeBtn").innerHTML = ".light"
-        logoImg.setAttribute("src", "img/logo_white.png")
-    }
-    else {
-        document.getElementById("modeBtn").innerHTML = ".dark"
-        logoImg.setAttribute("src", "img/logo_black.png")
-    }
-    document.getElementById("navbar").classList.toggle("navbar-dark");
+if (body.classList.contains("dark-mode")) {
+    modeBtn.innerHTML = ".light";
+    logoImg.setAttribute("src", "img/logo_white.png");
+} else {
+    modeBtn.innerHTML = ".dark";
+    logoImg.setAttribute("src", "img/logo_black.png");
 }
 
-let pinButton = document.getElementById("pinBtn")
-pinButton.addEventListener("click", text)
+navbar.classList.toggle("navbar-dark");
+
+const pinButton = document.getElementById("pinBtn");
+pinButton.addEventListener("click", text);
 
 function text() {
-    document.getElementById("messege").innerHTML = "mudassarsindoli@gmail.com : Send a quick mail to me!"
+    document.getElementById("messege").innerHTML = "mudassarsindoli@gmail.com : Send a quick mail to me!";
 }
+
+
+
+
+
+
+
