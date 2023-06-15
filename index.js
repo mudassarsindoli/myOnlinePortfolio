@@ -1,13 +1,13 @@
-const body = document.body;
-const aboutdark = document.getElementById("about");
-const textDiv = document.getElementById("textDivId");
-const skillsDiv = document.getElementById("skills");
-const educationDiv = document.getElementById("education");
-const experienceDiv = document.getElementById("work");
-const projects = document.getElementById("projects");
-const logoImg = document.getElementById("logo");
-const modeBtn = document.getElementById("modeBtn");
-const navbar = document.getElementById("navbar");
+let body = document.body;
+let aboutdark = document.getElementById("about");
+let textDiv = document.getElementById("textDivId");
+let skillsDiv = document.getElementById("skills");
+let educationDiv = document.getElementById("education");
+let experienceDiv = document.getElementById("work");
+let projects = document.getElementById("projects");
+let logoImg = document.getElementById("logo");
+let modeBtn = document.getElementById("modeBtn");
+let navbar = document.getElementById("navbar");
 
 body.classList.toggle("dark-mode");
 aboutdark.classList.toggle("aboutparaDivDark");
@@ -27,7 +27,7 @@ if (body.classList.contains("dark-mode")) {
 
 navbar.classList.toggle("navbar-dark");
 
-const pinButton = document.getElementById("pinBtn");
+let pinButton = document.getElementById("pinBtn");
 pinButton.addEventListener("click", text);
 
 function text() {
