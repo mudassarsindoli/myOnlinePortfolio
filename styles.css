@@ -113,6 +113,39 @@ body {
     background-color: rgb(0, 0, 0);
 }
 
+.projectsDiv{
+    display: flex;
+    background-color: #ffcf90;
+    border-radius: 40px;
+    margin: 50px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projectsDivDark {
+    background-color: rgb(0, 0, 0);
+}
+
+.projectHeadings{
+    font-size: 2rem;
+    margin-top: 30px;
+    text-decoration: none;
+    color: rgb(100, 100, 100);
+    transition: all 0.2s;
+}
+.projectHeadings:hover{
+    font-size: 2.1rem;
+    color: white;
+}
+
+.projectsDiv iframe{
+    width: 60vw;
+    height: 500px;
+}
+
+
+
 .educationDiv {
     display: flex;
     background-color: #ffcf90;
@@ -173,7 +206,7 @@ body {
 
 #messege{
     color: greenyellow;
-    font-size: 1vw;
+    font-size: 40px;
     font-weight: 500;
 }
 
