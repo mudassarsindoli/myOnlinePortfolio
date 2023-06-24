@@ -134,5 +134,9 @@
     #messege{
         font-size: 20px;
     }
+    .projectsDiv iframe{
+        width: 100vw;
+        height: 500px;
+    }
 
 }
